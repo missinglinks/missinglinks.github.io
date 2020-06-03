@@ -9,5 +9,5 @@ jobs:
     - name: Zola Deploy Action by @shalzz
       uses: shalzz/zola-deploy-action@master
       env:
-        PAGES_BRANCH: gh-pages
+        PAGES_BRANCH: master
         TOKEN: ${{ secrets.TOKEN }}
